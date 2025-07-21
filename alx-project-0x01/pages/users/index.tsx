@@ -1,8 +1,12 @@
 import React from "react";
+import Header from "@/components/layout/Header";
 
 const Users:React.FC = () => {
     return(
-        <h1>users</h1>
+        <div>
+            <Header />
+            <h1>users</h1>
+        </div>
     )
 }
 
