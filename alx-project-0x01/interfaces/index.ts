@@ -41,5 +41,5 @@ export interface Company {
 }
 
 export interface UsersProp{
-    posts: UserProps[]
+    users: UserProps[]
 }
