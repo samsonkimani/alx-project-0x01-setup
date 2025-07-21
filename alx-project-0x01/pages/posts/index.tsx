@@ -1,8 +1,9 @@
 import PostCard from "@/components/common/PostCard";
 import Header from "@/components/layout/Header";
 import { PostProps } from "@/interfaces";
+import { PostsProp } from "@/interfaces";
 
-const Posts: React.FC<PostProps[]> = ({ posts }) => {
+const Posts: React.FC<PostsProp> = ({ posts }) => {
   console.log(posts)
   return (
     <div className="flex flex-col h-screen">
